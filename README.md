@@ -32,3 +32,12 @@ sequenceDiagram
 end
 ```
 [end snippet]
+
+Leads to an error, let's try one of the [examples](https://mermaid.js.org/syntax/sequenceDiagram.html) from the docs:
+
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
