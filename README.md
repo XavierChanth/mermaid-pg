@@ -62,3 +62,6 @@ sequenceDiagram
 ```
 
 Nice, the font is bolded! The next question is how custom can we get with mermaid?
+Doesn't look like I can animate in GitHub... which was the main goal for this experiment, time to look for other solutions.
+
+Note [this observable notebook](https://observablehq.com/@tomlarkworthy/animated-sequence-diagrams) if your solution is able to modify the diagram with javascript.
