@@ -7,17 +7,7 @@ Found a customization sample for mermaid [here](https://stackoverflow.com/questi
 I am in a Markdown file and I want to show you a diagram:
 
 ```mermaid
-%%{
-  init: {
-    "sequence": {
-      "actorFontFamily": "monospace",
-      "actorFontWeight": "bold",
-      "messageFontFamily": "monospace",
-      "messageFontWeight": "bold",
-      "noteFontWeight": "bolder"
-    }
-  }
-}%%
+
 
 sequenceDiagram
   autonumber
