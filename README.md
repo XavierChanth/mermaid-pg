@@ -60,3 +60,5 @@ sequenceDiagram
     John-->>Alice: Great!
     Alice-)John: See you later!
 ```
+
+Nice, the font is bolded! The next question is how custom can we get with mermaid?
