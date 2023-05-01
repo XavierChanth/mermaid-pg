@@ -41,3 +41,22 @@ sequenceDiagram
     John-->>Alice: Great!
     Alice-)John: See you later!
 ```
+
+GitHub doesn't state where the error in the first diagram is... let's start by trying to add an init.
+```mermaid
+%%{
+  init: {
+    "sequence": {
+      "actorFontFamily": "monospace",
+      "actorFontWeight": "bold",
+      "messageFontFamily": "monospace",
+      "messageFontWeight": "bold",
+      "noteFontWeight": "bolder"
+    }
+  }
+}%%
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
